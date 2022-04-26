@@ -10,3 +10,37 @@
     
 </body>
 </html>
+<script>
+    localStorage.setItem("key","value")
+    localStorage.setItem("mobile",09800808)
+    localStorage.setItem("cvv",2345)
+    localStorage.setItem("name","pankaj")
+    var student="ram"
+    localStorage.setItem("Sname",student)
+    var student2="gyanparkash"
+    localStorage.setItem("sname2",student2)
+
+    var get =localStorage.getItem("mobile")
+    console.log(get)
+    console.log(localStorage.getItem("cvv"))
+
+    console.log(localStorage.getItem("sname2"))
+
+
+var num=[1,2,3,4]
+localStorage.setItem("lu",JSON.stringify(num))
+ var array=JSON.parse(localStorage.getItem("lu"))
+ console.log(typeof array)
+ console.log(array)
+
+
+
+
+
+
+
+
+
+
+
+</script>
